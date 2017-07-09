@@ -1,0 +1,35 @@
+<ion-view view-title="Result">
+  <ion-nav-buttons side="right">
+    <button class="button" id="saveBtn" ng-click="saveResult()">
+      Save
+    </button>
+  </ion-nav-buttons>
+  <ion-content>
+
+  <div class="list card">
+    <div class="item item-divider" style="color:#387ef5">
+      YOUR OVERALL PERFORMANCE
+    </div>
+          <div class="card">
+            <div class="item item-divider" style="color: #28a54c">
+              Cumulative SPI
+            </div>
+            <div class="item item-text-wrap">
+              <h2 style="font-weight: bold; color: #0000fe;">{{absoluteSPI}}</h2>
+            </div>
+            </div>
+          <div class="card">
+            <div class="item item-divider" style="color: #28a54c">
+              Cumulative Percentage
+            </div>
+            <div class="item item-text-wrap">
+              <h2 style="font-weight: bold; color: #000066">{{percentage+" %"}}</h2>
+            </div>
+          </div>
+      <canvas id="line" class="chart chart-line" chart-data="data" chart-labels="labels" legend="true" series="series" options="{showTooltips: false}"></canvas>
+        </div>
+    <div class="row-wrap" style="color: lightgray">
+      <p style="font-family: 'Calibri'; font-weight: bolder; text-align: center">manoj & sanjer apps</p>
+    </div>
+  </ion-content>
+</ion-view>

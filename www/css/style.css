@@ -1,0 +1,25 @@
+input[type=number]
+{
+  font-size: 17px;
+  font-style: inherit;
+  font-weight: bolder;
+  color: #387ef5;
+  border: thick;
+}
+.page-title{
+  margin-top : -10px;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+.page-sub-title{
+  margin-top: - 25px;
+  color: green;
+  font-size : .9em;
+}
+#saveBtn
+{
+  background-color: #387ef5;
+  color:white;
+  padding-left: 50px;
+  padding-right: 50px;
+}

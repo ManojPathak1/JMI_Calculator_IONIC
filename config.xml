@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.manoj_sanjerapps.jmicalculator" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>JMI Calculator</name>
+  <description>
+        Let's calculate!
+    </description>
+  <author email="manojpathak1294@gmail.com" href="http://example.com/">
+      Manoj Pathak
+    </author>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="SplashScreenDelay" value="2500"/>
+  <preference name="FadeSplashScreenDuration" value="1000"/>
+  <preference name="android-minSdkVersion" value="16"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <preference name="SplashScreen" value="screen"/>
+  <feature name="StatusBar">
+    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  </feature>
+  <platform name="android">
+    <icon src="resources/android/icon/drawable-mdpi-icon.png" density="mdpi"/>
+    <splash src="resources/android/splash/drawable-port-mdpi-screen.png" density="port-mdpi"/>
+  </platform>
+</widget>

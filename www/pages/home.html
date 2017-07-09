@@ -1,0 +1,64 @@
+<ion-view view-title="JMI Calculator">
+  <ion-content ng-controller="HomeController" class="has-header">
+  <div class="card" style="background-color: #DCDCDC">
+    <div class="item item-divider" style="color:#387ef5">
+      ENTER YOUR SPI
+    </div>
+  <div class="row">
+    <div class="col col-50">
+      <label class="item item-input1" style="border-radius: 10px; ">
+        <input ng-model="semPointer1" type="number" placeholder="1st Semester" autofocus>
+      </label>
+    </div>
+    <div class="col col-50">
+      <label class="item item-input1" style="border-radius: 10px">
+        <input ng-model="semPointer2" type="number" placeholder="2nd Semester">
+      </label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col-50">
+      <label class="item item-input1" style="border-radius: 10px">
+        <input ng-model="semPointer3" type="number" placeholder="3rd Semester">
+      </label>
+    </div>
+    <div class="col col-50">
+      <label class="item item-input1" style="border-radius: 10px">
+        <input ng-model="semPointer4" type="number" placeholder="4th Semester">
+      </label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col-50">
+      <label class="item item-input1" style="border-radius: 10px">
+        <input ng-model="semPointer5" type="number" placeholder="5th Semester">
+      </label>
+    </div>
+    <div class="col col-50">
+      <label class="item item-input1" style="border-radius: 10px">
+        <input ng-model="semPointer6" type="number" placeholder="6th Semester">
+      </label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col-50">
+      <label class="item item-input1" style="border-radius: 10px">
+        <input ng-model="semPointer7" type="number" placeholder="7th Semester">
+      </label>
+    </div>
+    <div class="col col-50">
+      <label class="item item-input1" style="border-radius: 10px">
+        <input ng-model="semPointer8" type="number" placeholder="8th Semester">
+      </label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col-100">
+      <button class="button button-balanced" ng-click="check()" style="width: 100%; border-radius: 50px;">
+        CALCULATE
+      </button>
+    </div>
+    </div>
+  </div>
+  </ion-content>
+</ion-view>
